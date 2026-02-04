@@ -17,7 +17,7 @@ class OpenRouteLLM:
         self.OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
         if not self.OPENROUTER_API_KEY:
             raise ValueError("OPENROUTER_API_KEY not found in .env")
-
+        self.model_name= "openrouter"
         self.llm_client = ChatOpenAI(
             model="arcee-ai/trinity-mini:free",
             openai_api_key=self.OPENROUTER_API_KEY,

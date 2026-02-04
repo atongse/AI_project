@@ -3,4 +3,7 @@
 0eced3d2-bb4c-4acd-b591-a912bc63ab4b/
 chroma.sqlite3
 */__pycache__/*
-
+tests/
+phase_2_rag/__pycache__
+phase_2_rag/shared/__pycache__
+phase_2_rag/shared/embeddings/__pycache__
