@@ -132,7 +132,7 @@ This phase ensures I understand the **architecture**, not just the framework.
 - Python
 - FastAPI
 - LangChain
-- FAISS
+- Chroma
 - Pydantic
 - AsyncIO
 
